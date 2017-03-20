@@ -34,13 +34,12 @@ To develop a database schema to store the game matches between players and to ra
 
    vagrant@vagrant-ubuntu-trusty-32:/vagrant/tournament$ python tournament_test.py
    
-   #we could see the Test Results:
-            
-   -1.countPlayers() returns 0 after initial deletePlayers() execution.
-   -2.countPlayers() returns 1 after one player is registered.
-   -3.countPlayers() returns 2 after two players are registered.
-   -4.countPlayers() returns zero after registered players are deleted.
-   -5.Player records successfully deleted.
+   we could see the Test Results:
+   1.countPlayers() returns 0 after initial deletePlayers() execution.
+   2.countPlayers() returns 1 after one player is registered.
+   3.countPlayers() returns 2 after two players are registered.
+   4.countPlayers() returns zero after registered players are deleted.
+   5.Player records successfully deleted.
    6.Newly registered players appear in the standings with no matches.
    7.After a match, players have updated standings.
    8.After match deletion, player standings are properly reset.
