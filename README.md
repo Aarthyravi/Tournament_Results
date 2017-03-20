@@ -46,4 +46,4 @@ To develop a database schema to store the game matches between players and to ra
    8. After match deletion, player standings are properly reset.
    9. Matches are properly deleted.
    10. After one match, players with one win are properly paired.
-   Success!  All tests pass!
+   * Success!  All tests pass!
