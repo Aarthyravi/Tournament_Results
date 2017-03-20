@@ -27,14 +27,15 @@ To develop a database schema to store the game matches between players and to ra
    
 # Initialize the database
 
-   $ psql tournament
+   vagrant@vagrant-ubuntu-trusty-32:/vagrant/tournament$ psql tournament
    
    tournament=> \i tournament.sql
+   
 # Run the Test
 
    vagrant@vagrant-ubuntu-trusty-32:/vagrant/tournament$ python tournament_test.py
    
-   we could see the Test Results:
+   ###we could see the Test Results:
    
    1. countPlayers() returns 0 after initial deletePlayers() execution.
    1. countPlayers() returns 1 after one player is registered.
