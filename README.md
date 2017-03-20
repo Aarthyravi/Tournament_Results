@@ -30,9 +30,9 @@ To develop a database schema to store the game matches between players and to ra
    vagrant@vagrant-ubuntu-trusty-32:/vagrant/tournament$ psql tournament
    
    tournament=> \i tournament.sql
-   >CREATE TABLE
-   >CREATE TABLE
-   >CREATE VIEW
+   * CREATE TABLE
+   * CREATE TABLE
+   * CREATE VIEW
    
 # Run the Test
 
