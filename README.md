@@ -33,8 +33,10 @@ To develop a database schema to store the game matches between players and to ra
 
    $python tournament_test.py
    
-   we could see the Test Results:
+   #we could see the Test Results:
+   
      vagrant@vagrant-ubuntu-trusty-32:/vagrant/tournament$ python tournament_test.py
+     
    1.countPlayers() returns 0 after initial deletePlayers() execution.
    2.countPlayers() returns 1 after one player is registered.
    3.countPlayers() returns 2 after two players are registered.
