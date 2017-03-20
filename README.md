@@ -36,9 +36,9 @@ To develop a database schema to store the game matches between players and to ra
    
    we could see the Test Results:
    
-   1.countPlayers() returns 0 after initial deletePlayers() execution.
-   1.countPlayers() returns 1 after one player is registered.
-   1.countPlayers() returns 2 after two players are registered.
+   1. countPlayers() returns 0 after initial deletePlayers() execution.
+   1. countPlayers() returns 1 after one player is registered.
+   1. countPlayers() returns 2 after two players are registered.
    1.countPlayers() returns zero after registered players are deleted.
    5.Player records successfully deleted.
    6.Newly registered players appear in the standings with no matches.
