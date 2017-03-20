@@ -12,8 +12,7 @@ To develop a database schema to store the game matches between players and to ra
       CREATE DATABASE
     
  # Table Creation: 
- 
-    To develop a database containing fully normalized data within multiple tables. 
+   To develop a database containing fully normalized data within multiple tables. 
    Two Tables We have to need. First table is for players. It contains Player Id and Player Name. 
    Second one is for matches.It contains Match Id, winner and loser.These tables are inside of the tournament.sql file.
     
