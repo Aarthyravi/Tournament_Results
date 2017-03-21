@@ -18,14 +18,14 @@ def connect(database_name="tournament"):
 def deleteMatches():
     """Remove all the match records from the database."""
     DB, c = connect()
-    c.execute("DELETE FROM matches")
+    c.execute("TRUNCATE TABLE matches CASCADE")
     DB.commit()
     DB.close()
 
 def deletePlayers():
     """Remove all the player records from the database."""
     DB, c = connect()
-    c.execute("DELETE FROM players")
+    c.execute("TRUNCATE TABLE players CASCADE")
     DB.commit()
     DB.close()
 
