@@ -86,8 +86,9 @@ def reportMatch(winner, loser):
       loser:  the id number of the player who lost
     """
     DB, c  = connect()
-    c.execute("INSERT INTO matches (winner, loser)"
-              "VALUES (%s, %s)", (winner, loser,))
+    query = "INSERT INTO matches (winner, loser) VALUES (%s, %s)"
+    param = (winner, loser,)
+    c.execute(query,param)
     DB.commit()
     DB.close()
 
