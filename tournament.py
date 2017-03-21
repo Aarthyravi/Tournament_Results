@@ -13,7 +13,7 @@ def connect(database_name="tournament"):
         c = DB.cursor()
         return DB, c
     except:
-        print("error connection")
+        print("connection error")
 
 def deleteMatches():
     """Remove all the match records from the database."""
