@@ -6,6 +6,20 @@
 -- You can write comments in this file by starting them with two dashes, like
 -- these lines here.
 
+-- Drop tournament database if it exists
+DROP DATABASE IF EXISTS tournament;
+
+--Create Database tournament
+CREATE DATABASE tournament;
+
+-- connect to the database
+\c tournament
+
+-- Drop all tables and views if they exist
+DROP TABLE IF EXISTS players CASCADE;
+DROP tABLE IF EXISTS matches CASCADE;
+DROP VIEW IF EXISTS playerstanding CASCADE;
+
 -- Create player table
 CREATE TABLE players (
   id SERIAL PRIMARY KEY,
@@ -15,8 +29,8 @@ CREATE TABLE players (
 -- Create match table
 CREATE TABLE matches (
   id SERIAL PRIMARY KEY,
-  winner SERIAL REFERENCES players(id) NOT NULL,
-  loser SERIAL REFERENCES players(id) NOT NULL
+  winner INTEGER REFERENCES players(id) NOT NULL,
+  loser INTEGER REFERENCES players(id) NOT NULL
 );
 
 -- Creates a view playerstanding table, that will be sorted by total_wins and
