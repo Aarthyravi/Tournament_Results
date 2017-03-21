@@ -15,10 +15,6 @@ CREATE DATABASE tournament;
 -- connect to the database
 \c tournament
 
--- Drop all tables and views if they exist
-DROP TABLE IF EXISTS players CASCADE;
-DROP tABLE IF EXISTS matches CASCADE;
-DROP VIEW IF EXISTS playerstanding CASCADE;
 
 -- Create player table
 CREATE TABLE players (
