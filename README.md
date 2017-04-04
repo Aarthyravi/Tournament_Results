@@ -3,11 +3,11 @@ Python module that uses the PostgreSQL database to keep track of players and mat
 To develop a database schema to store the game matches between players and to rank the players and pair them up in matches in a tournament.
 
 # Setup: 
-   1.Install Vagrant and virtual box
+   1. Install Vagrant and virtual box
      vagrantup.com and virtualbox.org
-   2.Launch the Vagrant VM 
+   2. Launch the Vagrant VM 
       $vargrant up
-   3.Login to your vagrant environment 
+   3. Login to your vagrant environment 
       $vagrant ssh
       
 # Database Creation:
