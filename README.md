@@ -4,11 +4,11 @@ To develop a database schema to store the game matches between players and to ra
 
 # Setup: 
    1. Install Vagrant and virtual box
-     vagrantup.com and virtualbox.org
+      * vagrantup.com and virtualbox.org
    2. Launch the Vagrant VM 
-      $vargrant up
+      * vargrant up
    3. Login to your vagrant environment 
-      $vagrant ssh
+       * $vagrant ssh
       
 # Database Creation:
    First We have to create the Database.
